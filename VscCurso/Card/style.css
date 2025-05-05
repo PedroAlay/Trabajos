@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: gainsboro;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.card-title {
+    padding-top: 10px;
+}
+
+.card-subtitle {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card-content {
+    font-size: 15px;
+    padding: 20px;
+    background-color: azure;
+    text-align: justify;
+}
