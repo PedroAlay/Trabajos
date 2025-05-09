@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ingreso de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Formulario de Clientes</h2>
+        <form action="" method="post">
+            <div class="container-input">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text"  placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>  
+            </div>
+            
+            <div class="container-input">
+                <ion-icon name="card-outline"></ion-icon>
+                <input type="number" placeholder="Numero de cedula" required>
+            </div>
+        
+            <div class="container-input">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" placeholder="Email" required>
+            </div>
+           
+            <div class="container-input">
+                <ion-icon name="call-outline"></ion-icon>
+                <input type="tel" placeholder="Teléfono" required>
+            </div>
+            
+            <div class="container-input">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <input type="date" required>
+            </div>
+            <input class="boton" type="submit" value="Guardar Cliente">
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
