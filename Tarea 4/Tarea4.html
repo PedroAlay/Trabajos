@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarea 4</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var num1 = parseInt(prompt("Primer numero: "));
+        var num2 = parseInt(prompt("Segundo numero: "));
+        let resultado;
+
+        for (let i = 1; i <= 5; i++){
+            switch (i) {
+                case 1:
+                    resultado = num1 + num2;
+                    alert(num1 + "+" + num2 + "=" + resultado);
+                    break;
+
+                case 2:
+                    resultado = num1 - num2;
+                    alert(num1 + "-" + num2 + "=" + resultado);
+                    break;
+
+                case 3:
+                    resultado = num1 * num2;
+                    alert(num1 + "x" + num2 + "=" + resultado);
+                    break;
+
+                case 4:
+                    resultado = num1 / num2;
+                    alert(num1 + "/" + num2 + "=" + resultado);
+                    break;
+
+                case 5:
+                     resultado = num1 % num2;
+                    alert(num1 + "%" + num2 + "=" + resultado);
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
